@@ -1,0 +1,89 @@
+
+
+.root{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: -50px;
+}
+
+.base{
+	position: absolute;
+	width: 300px;
+	height: 400px;
+	position: absolute;
+	left: 400px; bottom: -650px;
+	background-color: #ED9345;
+}
+
+.roof {
+    position: absolute;
+    left: 370px; bottom: -250px; 
+    border: 180px solid transparent; 
+    border-bottom: 180px solid #654321; 
+}
+
+.table-window {
+	position: absolute;
+    border-collapse: collapse;
+}
+.first-window{
+	left: 430px;
+	bottom: -570px;
+}
+.second-window{
+	left: 430px;
+	bottom: -400px;
+}
+.third-window{
+	left: 580px;
+	bottom: -400px;
+}
+.table-window, .window-td {
+    border: 5px solid #654321;
+}
+
+.window-td {
+	width: 35px;
+	height: 35px;
+	background-color: yellow;
+}
+
+.balcony-table{
+	position: absolute;
+    border-collapse: collapse;
+    left: 556px; bottom: -430px
+}
+
+.table-balcony, .balcony-td {
+    border: 5px solid #3D3D3D;
+}
+
+.balcony-td {
+	width: 15px;
+	height: 40px;
+}
+
+.door{
+	width: 100px;
+	height: 180px;
+	position: absolute;
+	left: 560px; bottom: -650px;
+	background-color: #654321;
+}
+
+.door:before {
+    content: "\25AE";
+    font-size: 50px;
+    position: absolute;
+	left: 10px; bottom: 70px;
+	color: #171717;
+}
+
+.bottom{
+	width: 360px;
+	height: 40px;
+	position: absolute;
+	left: 370px; bottom: -680px;
+	background-color: #3D3D3D;
+}
