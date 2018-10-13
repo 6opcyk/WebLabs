@@ -1,5 +1,5 @@
 .root{
-    position: relative fixed;
+    position: fixed;
     width: 100%;
     height: 100%;
 }
@@ -66,7 +66,11 @@
 	border: 0px solid transparent;
 	border-left: 5px solid #4C2D10;
 }
-
+.door:hover{
+	background-color: #E8C45E;
+	border: 0px solid transparent;
+	border-right: 20px solid #654321;
+}
 .door:before {
     content: "\25AE";
     font-size: 50px;
@@ -74,7 +78,9 @@
 	left: 10px; bottom: 70px;
 	color: #171717;
 }
-
+.door:hover:before{
+	content: "";
+}
 .bottom{
 	width: 360px;
 	height: 40px;
